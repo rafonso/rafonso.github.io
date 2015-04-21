@@ -258,6 +258,11 @@
   border-top: 1px solid #111111;
   border-bottom: 1px solid #111111;
   background: #f2f2f2 none repeat scroll 0%;
+/*
+    padding-left: 20%;
+    padding-right: 20%;
+    */
+
 }
 *|#main_content {
   padding-top: 40px;

@@ -7,9 +7,37 @@
         content="Rafonso.GitHub.io : Rafael Afonso Personal homepage">
         <link rel="stylesheet" type="text/css" media="screen"
         href="stylesheets/stylesheet.css">
-        <!-- Place this tag right after the last button or just before your close body tag. -->
-        <script async="" defer="defer" id="github-bjs"
-        src="https://buttons.github.io/buttons.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen"
+        href="https://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <script  
+        src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script 
+        src="https://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+        
+        <script type="">
+            $(document).ready(function() {
+                //                $( "#main_content" ).position({of: $("#main_content_wrap")});
+                $("#sudokuFrame").position({
+                    my: "center top",
+                    at: "center top",
+                    /*
+                        of: $("#main_content_wrap")
+                    */
+                });
+                $("#sudokuFrame iframe").position({
+                    my: "center top",
+                    at: "center top",
+                    of: $("#sudokuFrame")
+                });
+                $( "#description" ).accordion({
+                    //                    heightStyle: "fill"
+                    }).position({
+                    my: "center top",
+                    at: "center bottom",
+                    of: $("#sudokuFrame")
+                });
+            });
+        </script>
         <title>JS Sudoku Solver</title>
     </head>
     <body>
@@ -21,12 +49,33 @@
         <h2 id="project_tagline">JS Sudoku Solver</h2>
         </div>
         <!-- MAIN CONTENT -->
-        <div id="main_content_wrap" class="outer"> <section id="main_content"
-            class="inner">
-                <iframe src="https://rawgit.com/rafonso/JSSudokuSolver/master/index.html" style="width: 400px; height: 600px;">
+        <div id="main_content_wrap" class="outer"> 
+            <div id="sudokuFrame" class="inner">
+                <iframe id="sudoku" src="https://rawgit.com/rafonso/JSSudokuSolver/master/index.html" style="width: 400px; height: 600px;">
                     Loading ...
                 </iframe>
-            </section>
+            </div>
+            <div id="instructions" class="inner">
+                <h3>Instructions</h3>
+                <p>
+                    To fill the cells it is needed fill the cells with numbers from <i>1</i> to <i>9</i>. 
+                    If a cell is empty you must type <i>0</i> or <i>space</i>. 
+                    When the puzzle was complete to be solved, click in the <i>Run</i> button.
+                </p>
+                <p>
+                    To move to other cells in the puzzle, you can use the directional keys. 
+                    <i>0</i> or <i>space</i> will clean a previously filled cell. 
+                    <i>Backspace</i> also will clean a filled cell and move to the previous cell.
+                </p>
+                <p>
+                    While it is solving the puzzle, you can stop clicking in the <i>Stop</i> button.
+                    You can restart the solving clicking in <i>Run</i> or cleaning clicking in <i>Clean</i>.
+                    You can regulate the individual cell solving time, you change the <i>Step Time</i>.
+                </p>
+                <p>
+                    For more technical details go to the <a href="https://github.com/rafonso/JSSudokuSolver">Project GtHub</a> page.
+                </p>
+            </div>
         </div>
         <!-- FOOTER  -->
         <div id="footer_wrap" class="outer"> <footer class="inner"> </footer>
