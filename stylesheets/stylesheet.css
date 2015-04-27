@@ -1,5 +1,5 @@
 @import url(pygment_trac.css);
-*|html, *|body, *|div, *|span, *|applet, *|object, *|iframe, *|h1, *|h2, *|h3, *|h4, *|h5, *|h6, *|p, *|blockquote, *|pre, *|a, *|abbr, *|acronym, *|address, *|big, *|cite, *|code, *|del, *|dfn, *|em, *|img, *|ins, *|kbd, *|q, *|s, *|samp, *|small, *|strike, *|strong, *|sub, *|sup, *|tt, *|var, *|b, *|u, *|i, *|center, *|dl, *|dt, *|dd, *|ol, *|ul, *|li, *|fieldset, *|form, *|label, *|legend, *|table, *|caption, *|tbody, *|tfoot, *|thead, *|tr, *|th, *|td, *|article, *|aside, *|canvas, *|details, *|embed, *|figure, *|figcaption, *|footer, *|header, *|hgroup, *|menu, *|nav, *|output, *|ruby, *|section, *|summary, *|time, *|mark, *|audio, *|video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border:  none;
   margin: 0;
   padding: 0;
@@ -14,85 +14,85 @@
   vertical-align: baseline;
   text-align: justify;
 }
-*|article, *|aside, *|details, *|figcaption, *|figure, *|footer, *|header, *|hgroup, *|menu, *|nav, *|section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, div {
   display: block;
 }
-*|ol, *|ul {
+ol, ul {
   list-style-type: none;
   list-style-image: none;
   list-style-position: outside;
 }
-*|table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-*|body {
+body {
   background: #212121 none repeat scroll 0%;
   color: #373737;
   font-size: 16px;
   font-family: 'Myriad Pro',Calibri,Helvetica,Arial,sans-serif;
   line-height: 1.5;
 }
-*|h1, *|h2, *|h3, *|h4, *|h5, *|h6 {
+h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color: #222222;
   font-family: 'Lucida Grande','Calibri',Helvetica,Arial,sans-serif;
   letter-spacing: -1px;
 }
-*|h1 {
+h1 {
   font-size: 36px;
   font-weight: 700;
 }
-*|h2 {
+h2 {
   background: transparent url(../images/bg_hr.png) repeat-x scroll center bottom;
   padding-bottom: 10px;
   font-size: 32px;
 }
-*|h3 {
+h3 {
   font-size: 24px;
 }
-*|h4 {
+h4 {
   font-size: 21px;
 }
-*|h5 {
+h5 {
   font-size: 18px;
 }
-*|h6 {
+h6 {
   font-size: 16px;
 }
-*|p {
+p {
   margin: 10px 0 15px;
 }
-*|footer *|p {
+footer p {
   color: #f2f2f2;
 }
-*|a {
+a {
   text-decoration: none;
   color: #007edf;
   text-shadow: none;
 }
-*|a:hover, *|a:focus {
+a:hover, a:focus {
   text-decoration: underline;
 }
-*|footer *|a {
+footer a {
   color: #f2f2f2;
   text-decoration: underline;
 }
-*|em {
+em {
   font-style: italic;
 }
-*|strong {
+strong {
   font-weight: bold;
 }
-*|img {
+img {
   border: 1px solid #ebebeb;
   margin: 10px 0;
   padding: 5px;
   position: relative;
   max-width: 739px;
 }
-*|p *|img {
+p img {
   border:  none;
   margin: 0;
   padding: 0;
@@ -100,7 +100,7 @@
   vertical-align: middle;
   text-align: center;
 }
-*|pre, *|code {
+pre, code {
   width: 100%;
   color: #222222;
   background-color: #ffffff;
@@ -111,85 +111,85 @@
   -moz-border-radius-bottomright: 2px;
   -moz-border-radius-bottomleft: 2px;
 }
-*|pre {
+pre {
   padding: 10px;
   overflow: auto;
   width: 100%;
 }
-*|code {
+code {
   margin: 0 3px;
   padding: 3px;
 }
-*|pre *|code {
+pre code {
   display: block;
 }
-*|blockquote {
+blockquote {
   border-left: 3px solid #bbbbbb;
   padding: 0 0 0 20px;
   color: #666666;
   margin-bottom: 20px;
 }
-*|ul, *|ol, *|dl {
+ul, ol, dl {
   margin-bottom: 15px;
 }
-*|ul {
+ul {
   list-style-type: disc;
   list-style-image: none;
   list-style-position: outside;
   padding-left: 20px;
 }
-*|ol {
+ol {
   list-style-type: decimal;
   list-style-image: none;
   list-style-position: outside;
   padding-left: 20px;
 }
-*|dl *|dt {
+dl dt {
   font-weight: bold;
 }
-*|dl *|dd {
+dl dd {
   padding-left: 20px;
   font-style: italic;
 }
-*|dl *|p {
+dl p {
   padding-left: 20px;
   font-style: italic;
 }
-*|hr {
+hr {
   border:  none;
   background: transparent url(../images/bg_hr.png) repeat-x scroll center;
   height: 1px;
   margin-bottom: 5px;
 }
-*|table {
+table {
   border: 1px solid #373737;
   margin-bottom: 20px;
   text-align: left;
 }
-*|th {
+th {
   padding: 10px;
   background: #373737 none repeat scroll 0%;
   font-family: 'Lucida Grande','Helvetica Neue',Helvetica,Arial,sans-serif;
   color: #ffffff;
 }
-*|td {
+td {
   border: 1px solid #373737;
   padding: 10px;
 }
-*|form {
+form {
   padding: 20px;
   background: #f2f2f2 none repeat scroll 0%;
 }
-*|.outer {
+.outer {
   width: 100%;
 }
-*|.inner {
+.inner {
   margin: 0 auto;
   padding: 20px 10px;
   position: relative;
   max-width: 640px;
 }
-*|#forkme_banner {
+#forkme_banner {
   padding: 10px 50px 10px 10px;
   background: #0090ff url(../images/blacktocat.png) no-repeat scroll 95% 50%;
   display: block;
@@ -200,27 +200,27 @@
   color: #ffffff;
   font-weight: 700;
 }
-*|#header_wrap {
+#header_wrap {
   background: #212121 none repeat scroll 0%;
 }
-*|#header_wrap *|.inner {
+#header_wrap .inner {
   padding: 50px 10px 30px;
 }
-*|#project_title {
+#project_title {
   margin: 0;
   color: #ffffff;
   font-size: 42px;
   font-weight: 700;
   text-shadow: #111111 0px 0px 10px;
 }
-*|#project_tagline {
+#project_tagline {
   background: transparent none repeat scroll 0%;
   color: #ffffff;
   font-size: 24px;
   font-weight: 300;
   text-shadow: #111111 0px 0px 10px;
 }
-*|#downloads {
+#downloads {
   background: transparent url(../images/icon_download.png) no-repeat scroll 0% 90%;
   position: absolute;
   width: 210px;
@@ -229,7 +229,7 @@
   right: 0;
   height: 70px;
 }
-*|.zip_download_link {
+.zip_download_link {
   background: transparent url(../images/sprite_download.png) no-repeat scroll left bottom;
   overflow: hidden;
   display: block;
@@ -238,7 +238,7 @@
   height: 70px;
   text-indent: -5000px;
 }
-*|.tar_download_link {
+.tar_download_link {
   background: transparent url(../images/sprite_download.png) no-repeat scroll right bottom;
   overflow: hidden;
   display: block;
@@ -248,13 +248,13 @@
   text-indent: -5000px;
   margin-left: 10px;
 }
-*|.zip_download_link:hover {
+.zip_download_link:hover {
   background: transparent url(../images/sprite_download.png) no-repeat scroll left top;
 }
-*|.tar_download_link:hover {
+.tar_download_link:hover {
   background: transparent url(../images/sprite_download.png) no-repeat scroll right top;
 }
-*|#main_content_wrap {
+#main_content_wrap {
   border-top: 1px solid #111111;
   border-bottom: 1px solid #111111;
   background: #f2f2f2 none repeat scroll 0%;
@@ -264,9 +264,9 @@
     */
 
 }
-*|#main_content {
+#main_content {
   padding-top: 40px;
 }
-*|#footer_wrap {
+#footer_wrap {
   background: #212121 none repeat scroll 0%;
 }
